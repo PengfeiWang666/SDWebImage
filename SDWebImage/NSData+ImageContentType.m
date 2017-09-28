@@ -40,6 +40,9 @@
                 return SDImageFormatWebP;
             }
     }
+    if (!c) {
+        return SDImageFormatHEIC;
+    }
     return SDImageFormatUndefined;
 }
 
